@@ -6,12 +6,12 @@
 ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
 --	12c 버전 이전 문법 허용 구문
 
-CREATE USER kh IDENTIFIED BY kh1234;
+CREATE USER workbook IDENTIFIED BY workbook;
 -- user/PW 생성 ( kh/kh1234 )
 
 
-GRANT resource, CONNECT TO kh;
-ALTER USER kh DEFAULT TABLESPACE system quota unlimited ON system;
+GRANT resource, CONNECT TO workbook;
+ALTER USER workbook DEFAULT TABLESPACE system quota unlimited ON system;
 /*
  * 사용자 계정 권한 부여 설정
  * resource	: 테이블이나 인덱스같은 DB 객체를 생성할 권한
