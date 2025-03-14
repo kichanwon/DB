@@ -2,8 +2,11 @@
 --------------------------------------------------------
 --  DDL for Table DEPARTMENT
 --------------------------------------------------------
+/*
+drop
+ */
 
-  CREATE TABLE "DEPARTMENT" 
+CREATE TABLE "DEPARTMENT" 
    (	"DEPT_ID" CHAR(2 BYTE), 
 	"DEPT_TITLE" VARCHAR2(35 BYTE), 
 	"LOCATION_ID" CHAR(2 BYTE)
